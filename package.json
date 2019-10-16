@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-worshop-api",
+  "version": "0.0.1",
+  "description": "Example service for Jenkins workshop",
+  "main": "index.js",
+  "scripts": {
+    "local": "SERVICE_ENV=local node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
