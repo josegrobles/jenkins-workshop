@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "local": "SERVICE_ENV=local node index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha --reporter spec tests/*.js --exit"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
   },
   "dependencies": {
     "express": "^4.17.1"
